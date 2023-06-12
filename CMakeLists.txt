@@ -10,7 +10,7 @@ find_package(OpenGL REQUIRED)
 
 
 
-target_sources(glfw_glad_all PRIVATE src/glfw_glad_all.c)
+target_sources(glfw_glad_all PRIVATE src/glfw_glad_all.c lib/glad/src/glad.c)
 target_include_directories(glfw_glad_all PUBLIC include)
 target_link_libraries(glfw_glad_all PRIVATE glfw)
 target_link_libraries(glfw_glad_all PRIVATE OpenGL::GL)
