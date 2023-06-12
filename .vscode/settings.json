@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "glfw_glad_all.h": "c"
+    }
+}
